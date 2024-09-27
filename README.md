@@ -7,7 +7,7 @@ COS.py has implementation of classic COS method. This one was proposed by Fang &
 iCOS.py has the implementation of option-implied COS method by Vladimirov (2023). It is a model-free variation of classic method. Unlike the model-based method, model-free method is veri sensitive to the choice of parameter N (number of terms ic cosine expansion). High values of N can lead to significant overfit (oscillatory behavior like in the Gibbs phenomenon).
 ### Current goals:
 1) Fix interface of iCOS class to make it inline with PricingModel abc.
-2) Change characteristic function of Heston model (current one has complex logarithm + square root of complex number $\rightarrow$ numeric instability
+2) Change characteristic function of Heston model (current one has complex logarithm + square root of complex number $\rightarrow$ numeric instability)
 
 ### References:
 1) F. Fang and K. Oosterlee, A Novel Pricing Method for European Options Based on Fourier-Cosine Series Expansions (2009)
